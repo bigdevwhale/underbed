@@ -96,7 +96,7 @@ fun SettingsSheet(h: Home, onClose: () -> Unit) {
         Gap(10)
         Card {
             Text(w.t("О «Буке»", "About Underbed"), style = T.Heading)
-            Text(w.t("Питомец, который ест страх. Ужастики и книги ужасов — его еда, тревожные новости — фастфуд, а свои страхи он сторожит по ночам. Интернет нужен только для поиска фильмов и книг: Wikidata, Фантлаб, Open Library. Без рекламы и без аккаунта; всё хранится на телефоне.",
+            Text(w.t("Питомец, который ест страх. Ужастики и книги ужасов — его еда, тревожные новости — фастфуд, а твои страхи он сторожит по ночам. Интернет нужен только для поиска фильмов и книг: Wikidata, Фантлаб, Open Library. Без рекламы и без аккаунта; всё хранится на телефоне.",
                 "A pet that eats fear. Horror films and books are its food, anxious news is fast food, and your own fears it guards at night. The internet is used only to look up films and books: Wikidata, Fantlab, Open Library. No ads, no account; everything stays on the phone."), style = T.Small)
             Text(w.t("Версия ${BuildConfig.VERSION_NAME} · шрифты Old Standard TT и Neucha (OFL) · исходники на GitHub", "Version ${BuildConfig.VERSION_NAME} · Old Standard TT and Neucha fonts (OFL) · source on GitHub"),
                 style = T.Small.copy(color = C.wax),

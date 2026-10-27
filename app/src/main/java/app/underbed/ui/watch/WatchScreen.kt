@@ -48,6 +48,9 @@ import app.underbed.ui.Home
 import app.underbed.ui.Nav
 import app.underbed.ui.art.Dark
 import app.underbed.ui.art.Dark.scene
+import app.underbed.ui.art.Look
+import app.underbed.ui.art.Mouth
+import app.underbed.ui.art.pet
 import app.underbed.ui.components.Btn
 import app.underbed.ui.components.Card
 import app.underbed.ui.components.Chip
@@ -128,7 +131,16 @@ internal fun NightView(h: Home, n: Night) {
     val c = LocalContext.current.container
     val t by rememberSeconds()
     val view = LocalView.current
-    DisposableEffect(Unit) { view.keepScreenOn = true; onDispose { view.keepScreenOn = false } }
+    // A night light: the screen stays on, and as dim as it goes.
+    DisposableEffect(Unit) {
+        view.keepScreenOn = true
+        val win = (view.context as? android.app.Activity)?.window
+        win?.attributes = win?.attributes?.apply { screenBrightness = .02f }
+        onDispose {
+            view.keepScreenOn = false
+            win?.attributes = win?.attributes?.apply { screenBrightness = -1f }
+        }
+    }
     var line by remember { mutableStateOf<String?>(w.ate(n.fearList().size)) }
     var seq by remember { mutableIntStateOf(0) }
     var i by remember { mutableIntStateOf(0) }
@@ -148,7 +160,7 @@ internal fun NightView(h: Home, n: Night) {
         Box(Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(bottom = 22.dp)
             .clip(RoundedCornerShape(20.dp)).border(1.dp, C.nightLine, RoundedCornerShape(20.dp)).clickable { c.write { repo.morning() } }
             .padding(horizontal = 18.dp, vertical = 8.dp)) {
-            Text(w.t("☀ наступило утро", "☀ it's morning"), style = T.Small.copy(color = C.muted))
+            Text(w.t("☼ наступило утро", "☼ it's morning"), style = T.Small.copy(color = C.muted))
         }
     }
 }
@@ -175,6 +187,10 @@ internal fun Morning(h: Home, n: Night) {
                 }
             }
             Text(w.t("Я спать. Разбуди вечером.", "I'm off to sleep. Wake me in the evening."), style = T.Voice.copy(fontSize = 19.sp), modifier = Modifier.padding(top = 12.dp))
+        }
+        // The pet, asleep after its night's work.
+        Canvas(Modifier.fillMaxWidth().height(170.dp)) {
+            pet(h.creature, Offset(size.width / 2, size.height * .55f), size.height / 190f, Look(mouth = Mouth.SLEEP, sat = .8f, traits = h.s.traits()))
         }
         Column(Modifier.padding(16.dp)) {
             Btn(w.t("Спасибо, ${w.name(h.creature)}", "Thank you, ${w.name(h.creature)}"), Modifier.fillMaxWidth(), Kind.CHALK) {

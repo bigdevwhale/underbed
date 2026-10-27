@@ -18,7 +18,7 @@ class Words(val ru: Boolean, val gender: Gender?) {
         when (gender) {
             Gender.HE -> he
             Gender.SHE -> she
-            null -> if (she.startsWith(he)) "$he(${she.removePrefix(he)})" else if (he.isEmpty()) "($she)" else "$he/$she"
+            null -> if (she.startsWith(he)) "$he(${she.removePrefix(he)})" else if (he.isEmpty()) "($she)" else "$he($she)"
         }
     }
 
@@ -106,11 +106,11 @@ class Words(val ru: Boolean, val gender: Gender?) {
         Food.FILM -> t("Фильм", "Film")
         Food.BOOK -> t("Книга", "Book")
         Food.NEWS -> t("Новость", "News")
-        Food.OWN -> t("Свой страх", "My own fear")
+        Food.OWN -> t("Твой страх", "Your fear")
         Food.CASE -> t("Случай", "Something that happened")
     }
 
-    fun glyph(f: Food) = when (f) { Food.FILM -> "☠"; Food.BOOK -> "❦"; Food.NEWS -> "✉"; Food.OWN -> "☁"; Food.CASE -> "✧" }
+    fun glyph(f: Food) = when (f) { Food.FILM -> "☠"; Food.BOOK -> "❦"; Food.NEWS -> "✉"; Food.OWN -> "☾"; Food.CASE -> "✧" }
 
     fun spot(s: Spot) = when (s) {
         Spot.NAPE -> t("затылок", "nape")

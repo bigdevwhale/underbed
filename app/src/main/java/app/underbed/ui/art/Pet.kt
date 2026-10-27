@@ -283,5 +283,7 @@ private fun DrawScope.mouth(c: Creature, s: Spec, m: Mouth) {
 /** The pet seen small, from behind the popcorn or in a tile: the same drawing at another size. */
 fun DrawScope.petTile(c: Creature, look: Look = Look(sat = .3f)) {
     drawRect(Color(0xFF231D18))
+    // A candle-lit patch behind it, so a dark pet still has an edge.
+    glow(Offset(size.width / 2, size.height * .58f), size.height * .55f, C.glowHi, .22f)
     translate(0f, 0f) { pet(c, Offset(size.width / 2, size.height * .58f), size.height / 200f, look) }
 }

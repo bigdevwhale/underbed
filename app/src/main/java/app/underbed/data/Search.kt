@@ -29,6 +29,9 @@ object Search {
     /** Kinds of Fantlab works that are books one reads, not poems, articles or reviews. */
     private val FANTLAB_BOOKS = setOf("novel", "story", "collection", "epic", "tale", "anthology", "graphicnovel", "comix", "shortstory", "novelette")
 
+    /** Colouring books and notebooks that share a word with a horror title. */
+    private val JUNK = listOf("coloring", "colouring", "notebook", "journal", "planner", "sticker", "activity book")
+
     /** Null when nothing could be reached at all. */
     suspend fun search(food: Food, query: String, ru: Boolean): List<Found>? = withContext(Dispatchers.IO) {
         val q = query.trim()
@@ -65,11 +68,12 @@ object Search {
         val first = if (cyrillic) fan.await() else open.await()
         val second = if (cyrillic) open.await() else fan.await()
         val found = (first.orEmpty() + second.orEmpty().take(if (cyrillic) 4 else 6))
+            .filterNot { f -> JUNK.any { it in f.title.lowercase() } }
             .distinctBy { it.title.lowercase().trim() to it.maker.lowercase().trim() }
         if (found.isNotEmpty()) return@coroutineScope found
         val google = google(q)
         when {
-            !google.isNullOrEmpty() -> google
+            !google.isNullOrEmpty() -> google.filterNot { f -> JUNK.any { it in f.title.lowercase() } }
             first == null && second == null && google == null -> null
             else -> emptyList()
         }

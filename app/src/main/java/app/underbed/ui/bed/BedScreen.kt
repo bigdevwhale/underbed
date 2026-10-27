@@ -106,7 +106,8 @@ fun BedScreen(h: Home, nav: Nav) {
     LaunchedEffect(bubbleSeq) { if (bubble != null) { delay(4800); bubble = null } }
     LaunchedEffect(nav.reaction?.seq) {
         val r = nav.reaction ?: return@LaunchedEffect
-        nav.reaction = null
+        if (r.seq == nav.played) return@LaunchedEffect
+        nav.played = r.seq
         if (r.refused) {
             mouth = Mouth.COVERED; say(r.text); delay(5200); mouth = null
         } else {
@@ -177,7 +178,7 @@ fun BedScreen(h: Home, nav: Nav) {
             if (today.isEmpty()) Text(if (h.asleep) w.t("Пусто. Бука спит в шкафу, весь в нафталине.", "Nothing. It's asleep in the wardrobe, smelling of mothballs.") else w.t("Пока пусто. Из-под кровати смотрят два глаза.", "Nothing yet. Two eyes are watching from under the bed."),
                 style = T.Small, modifier = Modifier.padding(vertical = 10.dp))
             for (m in today) MealRow(w, m)
-            Text(w.t("Ужастики и книги сытные: от них растут и оставляют могилку. Новости — фастфуд: больше ${Rules.NEWS_A_DAY} в день не ест. Свои страхи забирает на ночь в дозор.",
+            Text(w.t("Ужастики и книги сытные: от них растут и оставляют могилку. Новости — фастфуд: больше ${Rules.NEWS_A_DAY} в день не ест. Твои страхи забирает на ночь в дозор.",
                 "Films and books are filling: they make it grow and get a grave. News is fast food: no more than ${Rules.NEWS_A_DAY} a day. Your own fears it takes for the night watch."),
                 style = T.Small.copy(color = C.muted), modifier = Modifier.padding(top = 14.dp))
             Spacer(Modifier.height(10.dp))

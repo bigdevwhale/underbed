@@ -30,6 +30,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
+import androidx.core.view.WindowCompat
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -89,6 +91,8 @@ class Reaction(val text: String, val refused: Boolean, val seq: Long = System.na
 /** How screens open sheets, switch tabs and let the pet answer a feeding. */
 class Nav(val overlays: SnapshotStateList<Overlay>, val tab: (Tab) -> Unit) {
     var reaction by mutableStateOf<Reaction?>(null)
+    /** The last reaction the pet has acted out, so coming back to the tab doesn't replay it. */
+    var played = 0L
     fun push(o: Overlay) = overlays.add(o)
     fun pop() { if (overlays.isNotEmpty()) overlays.removeAt(overlays.lastIndex) }
 }
@@ -123,6 +127,11 @@ fun BedRoot(settings: Settings) {
     val nav = remember { Nav(overlays) { tab = it } }
     BackHandler(enabled = overlays.isEmpty() && tab != Tab.BED) { tab = Tab.BED }
     val dark = tab == Tab.WATCH || tab == Tab.CINE
+    // Dark icons in the status bar over paper, light ones over the night.
+    val view = LocalView.current
+    LaunchedEffect(dark) {
+        (ctx as? Activity)?.window?.let { WindowCompat.getInsetsController(it, view).isAppearanceLightStatusBars = !dark }
+    }
 
     CompositionLocalProvider(LocalToast provides toaster) {
         Box(Modifier.fillMaxSize().then(if (dark) Modifier.night() else Modifier.paper())) {

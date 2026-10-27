@@ -74,7 +74,7 @@ private fun Welcome(w: Words, next: () -> Unit) {
         }
         Text(w.t("Под кроватью кто-то есть", "Something lives under your bed"), style = T.Title.copy(color = C.chalk, textAlign = TextAlign.Center), modifier = Modifier.fillMaxWidth().padding(top = 14.dp))
         Text(
-            w.t("В детстве ты его боял{ся|ась}. Теперь его можно кормить. Он ест страх: ужастики, книги ужасов, тревожные новости, свои страхи и то, что случилось в тёмном подъезде.",
+            w.t("В детстве ты его боял{ся|ась}. Теперь его можно кормить. Он ест страх: ужастики, книги ужасов, тревожные новости, твои страхи и то, что случилось в тёмном подъезде.",
                 "As a child you were afraid of it. Now you can feed it. It eats fear: horror films, horror books, anxious news, your own fears, and the thing in the dark stairwell."),
             style = T.Body.copy(color = C.chalk, textAlign = TextAlign.Center), modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
         )
@@ -82,7 +82,7 @@ private fun Welcome(w: Words, next: () -> Unit) {
             for (line in listOf(
                 w.t("☠  Ужастики и книги сытные — от них он растёт, а на погосте появляются могилки.", "☠  Films and books fill it up: it grows, and they get graves in the graveyard."),
                 w.t("✉  Новости — фастфуд. Больше трёх в день не съест: скажет «иди погуляй».", "✉  News is fast food. Over three a day and it tells you to go for a walk."),
-                w.t("☁  Свои страхи он забирает на ночь и сторожит, а утром отдаёт огрызки.", "☁  Your own fears it takes for the night and keeps watch; in the morning you get the cores."),
+                w.t("☾  Твои страхи он забирает на ночь и сторожит, а утром отдаёт огрызки.", "☾  Your own fears it takes for the night and keeps watch; in the morning you get the cores."),
             )) Text(line, style = T.Small.copy(color = C.chalkMuted, fontSize = 15.sp, lineHeight = 21.sp))
         }
         Btn(w.t("Заглянуть под кровать", "Look under the bed"), Modifier.fillMaxWidth().padding(top = 26.dp, bottom = 20.dp), Kind.PAPER, onClick = next)
