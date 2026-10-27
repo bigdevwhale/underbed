@@ -1,0 +1,303 @@
+kind	genre	year	title_ru	title_en	maker_ru	maker_en
+film	gothic	1922	Носферату. Симфония ужаса	Nosferatu	Фридрих Вильгельм Мурнау	F. W. Murnau
+film	gothic	1925	Призрак оперы	The Phantom of the Opera	Руперт Джулиан	Rupert Julian
+film	gothic	1931	Дракула	Dracula	Тод Браунинг	Tod Browning
+film	gothic	1931	Франкенштейн	Frankenstein	Джеймс Уэйл	James Whale
+film	gothic	1935	Невеста Франкенштейна	Bride of Frankenstein	Джеймс Уэйл	James Whale
+film	gothic	1958	Дракула	Dracula	Теренс Фишер	Terence Fisher
+film	gothic	1959	Дом ночных призраков	House on Haunted Hill	Уильям Касл	William Castle
+film	gothic	1961	Невинные	The Innocents	Джек Клейтон	Jack Clayton
+film	gothic	1963	Призрак дома на холме	The Haunting	Роберт Уайз	Robert Wise
+film	gothic	1979	Дикая охота короля Стаха	King Stakh's Wild Hunt	Валерий Рубинчик	Valery Rubinchik
+film	gothic	1979	Ужас Амитивилля	The Amityville Horror	Стюарт Розенберг	Stuart Rosenberg
+film	gothic	1979	Носферату: Призрак ночи	Nosferatu the Vampyre	Вернер Херцог	Werner Herzog
+film	gothic	1980	Туман	The Fog	Джон Карпентер	John Carpenter
+film	gothic	1980	Сияние	The Shining	Стэнли Кубрик	Stanley Kubrick
+film	gothic	1980	Подмена	The Changeling	Питер Медак	Peter Medak
+film	gothic	1982	Полтергейст	Poltergeist	Тоуб Хупер	Tobe Hooper
+film	gothic	1985	Ночь страха	Fright Night	Том Холланд	Tom Holland
+film	gothic	1987	Пропащие ребята	The Lost Boys	Джоэл Шумахер	Joel Schumacher
+film	gothic	1992	Дракула	Bram Stoker's Dracula	Фрэнсис Форд Коппола	Francis Ford Coppola
+film	gothic	1994	Интервью с вампиром	Interview with the Vampire	Нил Джордан	Neil Jordan
+film	gothic	1996	От заката до рассвета	From Dusk Till Dawn	Роберт Родригес	Robert Rodriguez
+film	gothic	1999	Сонная Лощина	Sleepy Hollow	Тим Бёртон	Tim Burton
+film	gothic	1999	Шестое чувство	The Sixth Sense	М. Найт Шьямалан	M. Night Shyamalan
+film	gothic	2001	Другие	The Others	Алехандро Аменабар	Alejandro Amenábar
+film	gothic	2002	Звонок	The Ring	Гор Вербински	Gore Verbinski
+film	gothic	2007	Приют	The Orphanage	Хуан Антонио Байона	J. A. Bayona
+film	gothic	2008	Впусти меня	Let the Right One In	Томас Альфредсон	Tomas Alfredson
+film	gothic	2010	Астрал	Insidious	Джеймс Ван	James Wan
+film	gothic	2012	Женщина в чёрном	The Woman in Black	Джеймс Уоткинс	James Watkins
+film	gothic	2015	Багровый пик	Crimson Peak	Гильермо дель Торо	Guillermo del Toro
+film	gothic	2017	Невеста	The Bride	Святослав Подгаевский	Svyatoslav Podgayevsky
+film	gothic	2024	Носферату	Nosferatu	Роберт Эггерс	Robert Eggers
+film	slasher	1960	Психо	Psycho	Альфред Хичкок	Alfred Hitchcock
+film	slasher	1974	Техасская резня бензопилой	The Texas Chain Saw Massacre	Тоуб Хупер	Tobe Hooper
+film	slasher	1974	Чёрное Рождество	Black Christmas	Боб Кларк	Bob Clark
+film	slasher	1978	Хэллоуин	Halloween	Джон Карпентер	John Carpenter
+film	slasher	1980	Пятница, 13-е	Friday the 13th	Шон С. Каннингем	Sean S. Cunningham
+film	slasher	1984	Кошмар на улице Вязов	A Nightmare on Elm Street	Уэс Крэйвен	Wes Craven
+film	slasher	1986	Генри: Портрет серийного убийцы	Henry: Portrait of a Serial Killer	Джон Макнотон	John McNaughton
+film	slasher	1988	Детские игры	Child's Play	Том Холланд	Tom Holland
+film	slasher	1991	Молчание ягнят	The Silence of the Lambs	Джонатан Демме	Jonathan Demme
+film	slasher	1992	Кэндимэн	Candyman	Бернард Роуз	Bernard Rose
+film	slasher	1995	Семь	Se7en	Дэвид Финчер	David Fincher
+film	slasher	1996	Крик	Scream	Уэс Крэйвен	Wes Craven
+film	slasher	1997	Забавные игры	Funny Games	Михаэль Ханеке	Michael Haneke
+film	slasher	1997	Я знаю, что вы сделали прошлым летом	I Know What You Did Last Summer	Джим Гиллеспи	Jim Gillespie
+film	slasher	2000	Американский психопат	American Psycho	Мэри Хэррон	Mary Harron
+film	slasher	2003	Поворот не туда	Wrong Turn	Роб Шмидт	Rob Schmidt
+film	slasher	2003	Кровавая жатва	High Tension	Александр Ажа	Alexandre Aja
+film	slasher	2004	Пила: Игра на выживание	Saw	Джеймс Ван	James Wan
+film	slasher	2005	Хостел	Hostel	Элай Рот	Eli Roth
+film	slasher	2008	Незнакомцы	The Strangers	Брайан Бертино	Bryan Bertino
+film	slasher	2011	Тебе конец!	You're Next	Адам Вингард	Adam Wingard
+film	slasher	2013	Судная ночь	The Purge	Джеймс ДеМонако	James DeMonaco
+film	slasher	2016	Не дыши	Don't Breathe	Феде Альварес	Fede Álvarez
+film	slasher	2016	Ужасающий	Terrifier	Дэмиен Леоне	Damien Leone
+film	slasher	2017	Счастливого дня смерти	Happy Death Day	Кристофер Лэндон	Christopher Landon
+film	slasher	2018	Хэллоуин	Halloween	Дэвид Гордон Грин	David Gordon Green
+film	slasher	2022	Варвар	Barbarian	Зак Креггер	Zach Cregger
+film	folk	1922	Ведьмы	Häxan	Беньямин Кристенсен	Benjamin Christensen
+film	folk	1967	Вий	Viy	Константин Ершов, Георгий Кропачёв	Konstantin Yershov, Georgi Kropachyov
+film	folk	1973	Плетёный человек	The Wicker Man	Робин Харди	Robin Hardy
+film	folk	1976	Кто может убить ребёнка?	Who Can Kill a Child?	Нарсисо Ибаньес Серрадор	Narciso Ibáñez Serrador
+film	folk	1984	Дети кукурузы	Children of the Corn	Фриц Кирш	Fritz Kiersch
+film	folk	1990	Ведьмы	The Witches	Николас Роуг	Nicolas Roeg
+film	folk	1990	Семья вурдалаков	The Family of Vourdalaks	Игорь Шавлак, Геннадий Климов	Igor Shavlak, Gennadi Klimov
+film	folk	2006	Плетёный человек	The Wicker Man	Нил Лабут	Neil LaBute
+film	folk	2014	Вий	Forbidden Empire	Олег Степченко	Oleg Stepchenko
+film	folk	2015	Ведьма	The Witch	Роберт Эггерс	Robert Eggers
+film	folk	2017	Ритуал	The Ritual	Дэвид Брукнер	David Bruckner
+film	folk	2017	Гоголь. Начало	Gogol. The Beginning	Егор Баранов	Egor Baranov
+film	folk	2018	Апостол	Apostle	Гарет Эванс	Gareth Evans
+film	folk	2018	Русалка. Озеро мёртвых	The Mermaid: Lake of the Dead	Святослав Подгаевский	Svyatoslav Podgayevsky
+film	folk	2019	Солнцестояние	Midsommar	Ари Астер	Ari Aster
+film	folk	2020	Яга. Кошмар тёмного леса	Yaga. Terror of the Dark Forest	Святослав Подгаевский	Svyatoslav Podgayevsky
+film	folk	2020	Гретель и Гензель	Gretel & Hansel	Оз Перкинс	Oz Perkins
+film	folk	2022	Род мужской	Men	Алекс Гарленд	Alex Garland
+film	cosmic	1951	Нечто из иного мира	The Thing from Another World	Кристиан Найби	Christian Nyby
+film	cosmic	1954	Годзилла	Godzilla	Исиро Хонда	Ishirō Honda
+film	cosmic	1956	Вторжение похитителей тел	Invasion of the Body Snatchers	Дон Сигел	Don Siegel
+film	cosmic	1958	Капля	The Blob	Ирвин Йиворт	Irvin Yeaworth
+film	cosmic	1960	Деревня проклятых	Village of the Damned	Вольф Рилла	Wolf Rilla
+film	cosmic	1975	Челюсти	Jaws	Стивен Спилберг	Steven Spielberg
+film	cosmic	1978	Вторжение похитителей тел	Invasion of the Body Snatchers	Филип Кауфман	Philip Kaufman
+film	cosmic	1979	Чужой	Alien	Ридли Скотт	Ridley Scott
+film	cosmic	1982	Нечто	The Thing	Джон Карпентер	John Carpenter
+film	cosmic	1986	Чужие	Aliens	Джеймс Кэмерон	James Cameron
+film	cosmic	1986	Извне	From Beyond	Стюарт Гордон	Stuart Gordon
+film	cosmic	1990	Дрожь земли	Tremors	Рон Андервуд	Ron Underwood
+film	cosmic	1994	В пасти безумия	In the Mouth of Madness	Джон Карпентер	John Carpenter
+film	cosmic	1997	Сквозь горизонт	Event Horizon	Пол У. С. Андерсон	Paul W. S. Anderson
+film	cosmic	2001	Джиперс Криперс	Jeepers Creepers	Виктор Сальва	Victor Salva
+film	cosmic	2005	Спуск	The Descent	Нил Маршалл	Neil Marshall
+film	cosmic	2006	Вторжение динозавра	The Host	Пон Джун Хо	Bong Joon-ho
+film	cosmic	2007	Мгла	The Mist	Фрэнк Дарабонт	Frank Darabont
+film	cosmic	2008	Монстро	Cloverfield	Мэтт Ривз	Matt Reeves
+film	cosmic	2012	Хижина в лесу	The Cabin in the Woods	Дрю Годдард	Drew Goddard
+film	cosmic	2018	Тихое место	A Quiet Place	Джон Красински	John Krasinski
+film	cosmic	2018	Аннигиляция	Annihilation	Алекс Гарленд	Alex Garland
+film	cosmic	2019	Цвет из иных миров	Color Out of Space	Ричард Стэнли	Richard Stanley
+film	cosmic	2020	Спутник	Sputnik	Егор Абраменко	Egor Abramenko
+film	cosmic	2022	Нет	Nope	Джордан Пил	Jordan Peele
+film	cosmic	2024	Чужой: Ромул	Alien: Romulus	Феде Альварес	Fede Álvarez
+film	jhorror	1964	Онибаба	Onibaba	Канэто Синдо	Kaneto Shindo
+film	jhorror	1964	Квайдан: Повествование о загадочном и ужасном	Kwaidan	Масаки Кобаяси	Masaki Kobayashi
+film	jhorror	1977	Дом	House	Нобухико Обаяси	Nobuhiko Obayashi
+film	jhorror	1997	Исцеление	Cure	Киёси Куросава	Kiyoshi Kurosawa
+film	jhorror	1998	Звонок	Ring	Хидэо Наката	Hideo Nakata
+film	jhorror	1999	Звонок 2	Ring 2	Хидэо Наката	Hideo Nakata
+film	jhorror	1999	Прослушивание	Audition	Такаси Миикэ	Takashi Miike
+film	jhorror	2001	Пульс	Pulse	Киёси Куросава	Kiyoshi Kurosawa
+film	jhorror	2002	Проклятие	Ju-on: The Grudge	Такаси Симидзу	Takashi Shimizu
+film	jhorror	2002	Тёмные воды	Dark Water	Хидэо Наката	Hideo Nakata
+film	jhorror	2003	История двух сестёр	A Tale of Two Sisters	Ким Чжи Ун	Kim Jee-woon
+film	jhorror	2003	Один пропущенный звонок	One Missed Call	Такаси Миикэ	Takashi Miike
+film	jhorror	2004	Проклятие	The Grudge	Такаси Симидзу	Takashi Shimizu
+film	jhorror	2006	Кошмарный детектив	Nightmare Detective	Синъя Цукамото	Shinya Tsukamoto
+film	jhorror	2010	Я видел дьявола	I Saw the Devil	Ким Чжи Ун	Kim Jee-woon
+film	jhorror	2016	Поезд в Пусан	Train to Busan	Ён Сан Хо	Yeon Sang-ho
+film	jhorror	2018	Гонджиам: Дом призраков	Gonjiam: Haunted Asylum	Чон Бом Сик	Jung Bum-shik
+film	jhorror	2021	Медиум	The Medium	Банджонг Писантанакун	Banjong Pisanthanakun
+film	psycho	1920	Кабинет доктора Калигари	The Cabinet of Dr. Caligari	Роберт Вине	Robert Wiene
+film	psycho	1962	Что случилось с Бэби Джейн?	What Ever Happened to Baby Jane?	Роберт Олдрич	Robert Aldrich
+film	psycho	1965	Отвращение	Repulsion	Роман Полански	Roman Polanski
+film	psycho	1968	Ребёнок Розмари	Rosemary's Baby	Роман Полански	Roman Polanski
+film	psycho	1973	А теперь не смотри	Don't Look Now	Николас Роуг	Nicolas Roeg
+film	psycho	1990	Мизери	Misery	Роб Райнер	Rob Reiner
+film	psycho	1990	Лестница Иакова	Jacob's Ladder	Эдриан Лайн	Adrian Lyne
+film	psycho	2009	Дитя тьмы	Orphan	Жауме Кольет-Серра	Jaume Collet-Serra
+film	psycho	2009	Антихрист	Antichrist	Ларс фон Триер	Lars von Trier
+film	psycho	2010	Чёрный лебедь	Black Swan	Даррен Аронофски	Darren Aronofsky
+film	psycho	2010	Остров проклятых	Shutter Island	Мартин Скорсезе	Martin Scorsese
+film	psycho	2014	Бабадук	The Babadook	Дженнифер Кент	Jennifer Kent
+film	psycho	2014	Спокойной ночи, мамочка	Goodnight Mommy	Вероника Франц, Северин Фиала	Veronika Franz, Severin Fiala
+film	psycho	2016	Сплит	Split	М. Найт Шьямалан	M. Night Shyamalan
+film	psycho	2017	Прочь	Get Out	Джордан Пил	Jordan Peele
+film	psycho	2017	мама!	mother!	Даррен Аронофски	Darren Aronofsky
+film	psycho	2018	Реинкарнация	Hereditary	Ари Астер	Ari Aster
+film	psycho	2019	Маяк	The Lighthouse	Роберт Эггерс	Robert Eggers
+film	psycho	2019	Мы	Us	Джордан Пил	Jordan Peele
+film	psycho	2019	Святая Мод	Saint Maud	Роуз Гласс	Rose Glass
+film	psycho	2020	Человек-невидимка	The Invisible Man	Ли Уоннелл	Leigh Whannell
+film	psycho	2022	Улыбка	Smile	Паркер Финн	Parker Finn
+film	psycho	2024	Собиратель душ	Longlegs	Оз Перкинс	Oz Perkins
+film	body	1968	Ночь живых мертвецов	Night of the Living Dead	Джордж Ромеро	George A. Romero
+film	body	1978	Рассвет мертвецов	Dawn of the Dead	Джордж Ромеро	George A. Romero
+film	body	1981	Американский оборотень в Лондоне	An American Werewolf in London	Джон Лэндис	John Landis
+film	body	1983	Видеодром	Videodrome	Дэвид Кроненберг	David Cronenberg
+film	body	1985	Реаниматор	Re-Animator	Стюарт Гордон	Stuart Gordon
+film	body	1986	Муха	The Fly	Дэвид Кроненберг	David Cronenberg
+film	body	1987	Восставший из ада	Hellraiser	Клайв Баркер	Clive Barker
+film	body	1989	Кладбище домашних животных	Pet Sematary	Мэри Ламберт	Mary Lambert
+film	body	1989	Тэцуо: Железный человек	Tetsuo: The Iron Man	Синъя Цукамото	Shinya Tsukamoto
+film	body	1992	Живая мертвечина	Braindead	Питер Джексон	Peter Jackson
+film	body	2002	28 дней спустя	28 Days Later	Дэнни Бойл	Danny Boyle
+film	body	2002	Обитель зла	Resident Evil	Пол У. С. Андерсон	Paul W. S. Anderson
+film	body	2002	Лихорадка	Cabin Fever	Элай Рот	Eli Roth
+film	body	2004	Рассвет мертвецов	Dawn of the Dead	Зак Снайдер	Zack Snyder
+film	body	2004	Зомби по имени Шон	Shaun of the Dead	Эдгар Райт	Edgar Wright
+film	body	2008	Мученицы	Martyrs	Паскаль Ложье	Pascal Laugier
+film	body	2016	Сырое	Raw	Жюлия Дюкурно	Julia Ducournau
+film	body	2019	Кладбище домашних животных	Pet Sematary	Кевин Колш, Деннис Уидмайер	Kevin Kölsch, Dennis Widmyer
+film	body	2021	Титан	Titane	Жюлия Дюкурно	Julia Ducournau
+film	body	2022	Преступления будущего	Crimes of the Future	Дэвид Кроненберг	David Cronenberg
+film	body	2024	Субстанция	The Substance	Корали Фаржа	Coralie Fargeat
+film	other	1957	Ночь демона	Night of the Demon	Жак Турнёр	Jacques Tourneur
+film	other	1973	Изгоняющий дьявола	The Exorcist	Уильям Фридкин	William Friedkin
+film	other	1976	Омен	The Omen	Ричард Доннер	Richard Donner
+film	other	1976	Кэрри	Carrie	Брайан Де Пальма	Brian De Palma
+film	other	1977	Суспирия	Suspiria	Дарио Ардженто	Dario Argento
+film	other	1981	Зловещие мертвецы	The Evil Dead	Сэм Рэйми	Sam Raimi
+film	other	1982	Калейдоскоп ужасов	Creepshow	Джордж Ромеро	George A. Romero
+film	other	1983	Кристина	Christine	Джон Карпентер	John Carpenter
+film	other	1987	Зловещие мертвецы 2	Evil Dead II	Сэм Рэйми	Sam Raimi
+film	other	1990	Оно	It	Томми Ли Уоллес	Tommy Lee Wallace
+film	other	1999	Ведьма из Блэр: Курсовая с того света	The Blair Witch Project	Дэниел Мирик, Эдуардо Санчес	Daniel Myrick, Eduardo Sánchez
+film	other	2000	Пункт назначения	Final Destination	Джеймс Вонг	James Wong
+film	other	2005	Шесть демонов Эмили Роуз	The Exorcism of Emily Rose	Скотт Дерриксон	Scott Derrickson
+film	other	2007	Паранормальное явление	Paranormal Activity	Орен Пели	Oren Peli
+film	other	2007	Репортаж	[REC]	Жауме Балагеро, Пако Пласа	Jaume Balagueró, Paco Plaza
+film	other	2007	Мёртвые дочери	Dead Daughters	Павел Руминов	Pavel Ruminov
+film	other	2007	Кошелёк или жизнь	Trick 'r Treat	Майкл Догерти	Michael Dougherty
+film	other	2009	Затащи меня в ад	Drag Me to Hell	Сэм Рэйми	Sam Raimi
+film	other	2012	Синистер	Sinister	Скотт Дерриксон	Scott Derrickson
+film	other	2013	Заклятие	The Conjuring	Джеймс Ван	James Wan
+film	other	2013	Зловещие мертвецы: Чёрная книга	Evil Dead	Феде Альварес	Fede Álvarez
+film	other	2014	Проклятие Аннабель	Annabelle	Джон Р. Леонетти	John R. Leonetti
+film	other	2014	Оно	It Follows	Дэвид Роберт Митчелл	David Robert Mitchell
+film	other	2015	Пиковая дама: Чёрный обряд	Queen of Spades: The Dark Rite	Святослав Подгаевский	Svyatoslav Podgayevsky
+film	other	2017	Оно	It	Андрес Мускетти	Andy Muschietti
+film	other	2018	Проклятие монахини	The Nun	Корин Харди	Corin Hardy
+film	other	2018	Суспирия	Suspiria	Лука Гуаданьино	Luca Guadagnino
+film	other	2021	Злое	Malignant	Джеймс Ван	James Wan
+film	other	2022	Два, три, демон, приди!	Talk to Me	Дэнни Филиппу, Майкл Филиппу	Danny Philippou, Michael Philippou
+film	other	2023	Зловещие мертвецы: Восстание	Evil Dead Rise	Ли Кронин	Lee Cronin
+book	gothic	1818	Франкенштейн, или Современный Прометей	Frankenstein; or, The Modern Prometheus	Мэри Шелли	Mary Shelley
+book	gothic	1819	Вампир	The Vampyre	Джон Полидори	John William Polidori
+book	gothic	1820	Мельмот Скиталец	Melmoth the Wanderer	Чарлз Роберт Метьюрин	Charles Robert Maturin
+book	gothic	1834	Пиковая дама	The Queen of Spades	Александр Пушкин	Alexander Pushkin
+book	gothic	1835	Портрет	The Portrait	Николай Гоголь	Nikolai Gogol
+book	gothic	1839	Падение дома Ашеров	The Fall of the House of Usher	Эдгар Аллан По	Edgar Allan Poe
+book	gothic	1841	Упырь	The Vampire	Алексей Константинович Толстой	Aleksey Konstantinovich Tolstoy
+book	gothic	1866	Сигнальщик	The Signal-Man	Чарльз Диккенс	Charles Dickens
+book	gothic	1872	Кармилла	Carmilla	Джозеф Шеридан Ле Фаню	Joseph Sheridan Le Fanu
+book	gothic	1883	Клара Милич	Clara Milich	Иван Тургенев	Ivan Turgenev
+book	gothic	1890	Портрет Дориана Грея	The Picture of Dorian Gray	Оскар Уайльд	Oscar Wilde
+book	gothic	1897	Дракула	Dracula	Брэм Стокер	Bram Stoker
+book	gothic	1898	Поворот винта	The Turn of the Screw	Генри Джеймс	Henry James
+book	gothic	1910	Призрак оперы	The Phantom of the Opera	Гастон Леру	Gaston Leroux
+book	gothic	1938	Ребекка	Rebecca	Дафна Дюморье	Daphne du Maurier
+book	gothic	1943	Мальпертюи	Malpertuis	Жан Рэй	Jean Ray
+book	gothic	1959	Призрак дома на холме	The Haunting of Hill House	Ширли Джексон	Shirley Jackson
+book	gothic	1971	Адский дом	Hell House	Ричард Матесон	Richard Matheson
+book	gothic	1975	Жребий	'Salem's Lot	Стивен Кинг	Stephen King
+book	gothic	1976	Интервью с вампиром	Interview with the Vampire	Энн Райс	Anne Rice
+book	gothic	1977	Сияние	The Shining	Стивен Кинг	Stephen King
+book	gothic	1979	История с привидениями	Ghost Story	Питер Страуб	Peter Straub
+book	gothic	1983	Женщина в чёрном	The Woman in Black	Сьюзен Хилл	Susan Hill
+book	gothic	2004	Впусти меня	Let the Right One In	Юн Айвиде Линдквист	John Ajvide Lindqvist
+book	gothic	2007	Коробка в форме сердца	Heart-Shaped Box	Джо Хилл	Joe Hill
+book	gothic	2014	Хоррорштор	Horrorstör	Грэди Хендрикс	Grady Hendrix
+book	gothic	2020	Мексиканская готика	Mexican Gothic	Сильвия Морено-Гарсия	Silvia Moreno-Garcia
+book	folk	1830	Вечер накануне Ивана Купала	St. John's Eve	Николай Гоголь	Nikolai Gogol
+book	folk	1831	Вечера на хуторе близ Диканьки	Evenings on a Farm Near Dikanka	Николай Гоголь	Nikolai Gogol
+book	folk	1832	Страшная месть	A Terrible Vengeance	Николай Гоголь	Nikolai Gogol
+book	folk	1835	Вий	Viy	Николай Гоголь	Nikolai Gogol
+book	folk	1869	Локис	Lokis	Проспер Мериме	Prosper Mérimée
+book	folk	1884	Семья вурдалака	The Family of the Vourdalak	Алексей Константинович Толстой	Aleksey Konstantinovich Tolstoy
+book	folk	1910	Вендиго	The Wendigo	Элджернон Блэквуд	Algernon Blackwood
+book	folk	1948	Лотерея	The Lottery	Ширли Джексон	Shirley Jackson
+book	folk	1983	Ведьмы	The Witches	Роальд Даль	Roald Dahl
+book	folk	2011	Ритуал	The Ritual	Адам Нэвилл	Adam Nevill
+book	cosmic	1893	Проклятая тварь	The Damned Thing	Амброз Бирс	Ambrose Bierce
+book	cosmic	1894	Великий бог Пан	The Great God Pan	Артур Мейчен	Arthur Machen
+book	cosmic	1895	Король в жёлтом	The King in Yellow	Роберт Чамберс	Robert W. Chambers
+book	cosmic	1907	Ивы	The Willows	Элджернон Блэквуд	Algernon Blackwood
+book	cosmic	1908	Дом на краю	The House on the Borderland	Уильям Хоуп Ходжсон	William Hope Hodgson
+book	cosmic	1925	Роковые яйца	The Fatal Eggs	Михаил Булгаков	Mikhail Bulgakov
+book	cosmic	1927	Цвет из иных миров	The Colour Out of Space	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1928	Зов Ктулху	The Call of Cthulhu	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1929	Данвичский ужас	The Dunwich Horror	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1936	Хребты безумия	At the Mountains of Madness	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1936	Тень над Иннсмутом	The Shadow over Innsmouth	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1941	Случай Чарльза Декстера Варда	The Case of Charles Dexter Ward	Говард Лавкрафт	H. P. Lovecraft
+book	cosmic	1951	День триффидов	The Day of the Triffids	Джон Уиндем	John Wyndham
+book	cosmic	1957	Мидвичские кукушки	The Midwich Cuckoos	Джон Уиндем	John Wyndham
+book	cosmic	1974	Крысы	The Rats	Джеймс Херберт	James Herbert
+book	cosmic	1974	Челюсти	Jaws	Питер Бенчли	Peter Benchley
+book	cosmic	1980	Туман	The Mist	Стивен Кинг	Stephen King
+book	cosmic	1983	Фантомы	Phantoms	Дин Кунц	Dean Koontz
+book	cosmic	2001	Ловец снов	Dreamcatcher	Стивен Кинг	Stephen King
+book	cosmic	2005	Метро 2033	Metro 2033	Дмитрий Глуховский	Dmitry Glukhovsky
+book	cosmic	2006	Руины	The Ruins	Скотт Смит	Scott Smith
+book	cosmic	2007	Террор	The Terror	Дэн Симмонс	Dan Simmons
+book	cosmic	2014	Аннигиляция	Annihilation	Джефф Вандермеер	Jeff VanderMeer
+book	psycho	1816	Песочный человек	The Sandman	Эрнст Теодор Амадей Гофман	E. T. A. Hoffmann
+book	psycho	1843	Сердце-обличитель	The Tell-Tale Heart	Эдгар Аллан По	Edgar Allan Poe
+book	psycho	1846	Бочонок амонтильядо	The Cask of Amontillado	Эдгар Аллан По	Edgar Allan Poe
+book	psycho	1887	Орля	The Horla	Ги де Мопассан	Guy de Maupassant
+book	psycho	1892	Жёлтые обои	The Yellow Wallpaper	Шарлотта Перкинс Гилман	Charlotte Perkins Gilman
+book	psycho	1904	Красный смех	The Red Laugh	Леонид Андреев	Leonid Andreyev
+book	psycho	1962	Мы живём в замке	We Have Always Lived in the Castle	Ширли Джексон	Shirley Jackson
+book	psycho	1987	Мизери	Misery	Стивен Кинг	Stephen King
+book	psycho	1992	Игра Джералда	Gerald's Game	Стивен Кинг	Stephen King
+book	psycho	2005	Переходный возраст	An Awkward Age	Анна Старобинец	Anna Starobinets
+book	psycho	2014	Птичий короб	Bird Box	Джош Малерман	Josh Malerman
+book	psycho	2018	Хижина в конце мира	The Cabin at the End of the World	Пол Тремблей	Paul Tremblay
+book	slasher	1959	Психо	Psycho	Роберт Блох	Robert Bloch
+book	slasher	1981	Красный дракон	Red Dragon	Томас Харрис	Thomas Harris
+book	slasher	1988	Молчание ягнят	The Silence of the Lambs	Томас Харрис	Thomas Harris
+book	slasher	1989	Девушка по соседству	The Girl Next Door	Джек Кетчам	Jack Ketchum
+book	slasher	1991	Американский психопат	American Psycho	Брет Истон Эллис	Bret Easton Ellis
+book	body	1886	Странная история доктора Джекила и мистера Хайда	Strange Case of Dr Jekyll and Mr Hyde	Роберт Льюис Стивенсон	Robert Louis Stevenson
+book	body	1896	Остров доктора Моро	The Island of Doctor Moreau	Герберт Уэллс	H. G. Wells
+book	body	1915	Превращение	The Metamorphosis	Франц Кафка	Franz Kafka
+book	body	1954	Я — легенда	I Am Legend	Ричард Матесон	Richard Matheson
+book	body	1983	Кладбище домашних животных	Pet Sematary	Стивен Кинг	Stephen King
+book	body	1984	Книги крови	Books of Blood	Клайв Баркер	Clive Barker
+book	body	1986	Восставший из ада	The Hellbound Heart	Клайв Баркер	Clive Barker
+book	body	2006	Мобильник	Cell	Стивен Кинг	Stephen King
+book	jhorror	1925	Человек-кресло	The Human Chair	Эдогава Рампо	Edogawa Ranpo
+book	jhorror	1987	Томиэ	Tomie	Дзюндзи Ито	Junji Ito
+book	jhorror	1991	Звонок	Ring	Кодзи Судзуки	Koji Suzuki
+book	jhorror	1995	Спираль	Spiral	Кодзи Судзуки	Koji Suzuki
+book	jhorror	1996	Тёмные воды	Dark Water	Кодзи Судзуки	Koji Suzuki
+book	jhorror	1998	Удзумаки	Uzumaki	Дзюндзи Ито	Junji Ito
+book	other	1842	Маска Красной смерти	The Masque of the Red Death	Эдгар Аллан По	Edgar Allan Poe
+book	other	1902	Обезьянья лапа	The Monkey's Paw	Уильям Уаймарк Джейкобс	W. W. Jacobs
+book	other	1906	Елеазар	Lazarus	Леонид Андреев	Leonid Andreyev
+book	other	1908	Огненный ангел	The Fiery Angel	Валерий Брюсов	Valery Bryusov
+book	other	1967	Ребёнок Розмари	Rosemary's Baby	Айра Левин	Ira Levin
+book	other	1971	Изгоняющий дьявола	The Exorcist	Уильям Питер Блэтти	William Peter Blatty
+book	other	1974	Кэрри	Carrie	Стивен Кинг	Stephen King
+book	other	1978	Ночная смена	Night Shift	Стивен Кинг	Stephen King
+book	other	1983	Кристина	Christine	Стивен Кинг	Stephen King
+book	other	1986	Оно	It	Стивен Кинг	Stephen King
+book	other	2000	Дом листьев	House of Leaves	Марк Z. Данилевски	Mark Z. Danielewski
+book	other	2002	Коралина	Coraline	Нил Гейман	Neil Gaiman
+book	other	2013	Доктор Сон	Doctor Sleep	Стивен Кинг	Stephen King
+book	other	2013	Страна Рождества	NOS4A2	Джо Хилл	Joe Hill
+book	other	2015	Голова, полная призраков	A Head Full of Ghosts	Пол Тремблей	Paul Tremblay
+book	other	2018	Чужак	The Outsider	Стивен Кинг	Stephen King

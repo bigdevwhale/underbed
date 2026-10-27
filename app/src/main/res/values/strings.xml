@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Underbed</string>
+    <string name="tab_bed">Under the bed</string>
+    <string name="tab_yard">Graveyard</string>
+    <string name="tab_watch">Night watch</string>
+    <string name="tab_cine">Film night</string>
+</resources>
