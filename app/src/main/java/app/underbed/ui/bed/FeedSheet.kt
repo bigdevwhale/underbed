@@ -193,7 +193,7 @@ fun Goosebumps(level: Int, hint: String, onLevel: (Int) -> Unit) {
             if (lv != last) { last = lv; onLevel(lv); haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove) }
             val want = (el * 18).toInt().coerceAtMost(90)
             while (bumps.size < want) bumps.add(Triple(.04f + r.nextFloat() * .92f, .06f + r.nextFloat() * .86f, .6f + r.nextFloat() * .9f))
-            if (el > 3.2f) break
+            if (lv == 5 && bumps.size >= 90) break
             delay(16)
         }
     }

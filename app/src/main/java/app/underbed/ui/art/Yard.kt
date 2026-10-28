@@ -64,7 +64,7 @@ object Yard {
             withTransform({ translate(-30f * (1 - cos(k)) / 2, 12f * sin(k) / 2) }) { ink(bat) }
         }
         // A chapel on the far hill with one lit window.
-        withTransform({ translate(332f, 212f) }) {
+        withTransform({ translate(332f, 251f) }) {
             ink("M-16 -26h32v26h-32zM-20 -26L0 -40L20 -26ZM-5 -58h10v20h-10zM-8 -58Q-9 -70 0 -76Q9 -70 8 -58Z")
             pen("M0 -76L0 -88M-4 -84L4 -84", 1.6f)
             drawRect(C.glow, Offset(-3f, -16f), Size(6f, 16f))

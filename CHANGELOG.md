@@ -6,6 +6,17 @@ line "<!-- tg", then 2-4 short lines in Russian for users (what is new, what is 
 then close it like any HTML comment. The release notes carry it, and the chat bot posts those lines.
 -->
 
+## [1.0.1] - 2026-10-28
+
+### Fixed
+- The goosebump meter now reaches 5 out of 5. It used to stop counting at 4.
+- The chapel in the graveyard stands on its hill instead of hanging in the air.
+
+<!-- tg
+Мурашкометр теперь доходит до пяти из пяти — раньше застревал на четырёх
+Церковь на погосте больше не висит в воздухе, а стоит на холме
+-->
+
 ## [1.0.0] - 2026-10-27
 
 ### Added
