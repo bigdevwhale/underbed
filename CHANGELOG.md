@@ -6,6 +6,16 @@ line "<!-- tg", then 2-4 short lines in Russian for users (what is new, what is 
 then close it like any HTML comment. The release notes carry it, and the chat bot posts those lines.
 -->
 
+## [1.0.2] - 2026-10-28
+
+### Changed
+- The creatures no longer glow below the mouth. Colour stays only in their eyes; how full the pet is shows on the bar under the bed.
+
+<!-- tg
+У существ больше нет свечения под ртом — остались только горящие глаза
+Сытость по-прежнему видна по полоске под кроватью
+-->
+
 ## [1.0.1] - 2026-10-28
 
 ### Fixed

@@ -49,7 +49,7 @@ private val I = C.ink
 
 /**
  * The pet, drawn around [center] at [scale] units to a pixel (or design unit). Cross-hatched ink like
- * an Edward Gorey drawing; colour only in its eyes and in the belly when it is fed.
+ * an Edward Gorey drawing; colour only in its eyes.
  */
 fun DrawScope.pet(c: Creature, center: Offset, scale: Float, look: Look = Look()) {
     val s = spec(c)
@@ -59,7 +59,6 @@ fun DrawScope.pet(c: Creature, center: Offset, scale: Float, look: Look = Look()
     }) {
         body(c)
         for (g in look.traits) trait(g, s, c)
-        glow(s.belly, 40f, C.glow, look.sat.coerceIn(0f, 1f) * .95f)
         eyes(c, s, look)
         withTransform({ translate(0f, s.my); scale(if (look.mouth == Mouth.COVERED) maxOf(.6f, s.ms) else s.ms, if (look.mouth == Mouth.COVERED) maxOf(.6f, s.ms) else s.ms, Offset.Zero) }) {
             mouth(c, s, look.mouth)

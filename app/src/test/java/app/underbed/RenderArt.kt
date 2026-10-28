@@ -52,6 +52,14 @@ class RenderArt {
         }
     }
 
+    /** Each creature alone on a clear ground, large, for posters. */
+    @Test fun poster() {
+        for (c in Creature.entries) render("poster-${c.name.lowercase()}", 440, 520) {
+            val traits = if (c == Creature.BUKA) listOf(Genre.GOTHIC) else emptyList()
+            pet(c, Offset(220f, 290f), 2f, Look(sat = .7f, traits = traits))
+        }
+    }
+
     @Test fun bed() {
         render("bed", 1080, 1163) {
             scale(1080f / Bed.W, 1080f / Bed.W, Offset.Zero) {

@@ -13,7 +13,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import app.underbed.R
 
-/** Ink on old paper, as in a Victorian picture book; colour only in the eyes, the candle and the fed belly. */
+/** Ink on old paper, as in a Victorian picture book; colour only in the eyes and the candle. */
 @Immutable
 object C {
     val paper = Color(0xFFEFE6D2)
